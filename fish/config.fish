@@ -4,7 +4,7 @@ set -g fish_greeting ' __  __     __          __     ______     ______   ______
  \ \_\ \_\  \ \_\    /\_____\  \ \_____\  \ \_\    \ \_\
   \/_/\/_/   \/_/    \/_____/   \/_____/   \/_/     \/_/
                                                            '
-set EDITOR subl -w
+set -gx EDITOR subl
 set NODE_PATH /usr/local/lib/node_modules
 set PATH /usr/local/bin $PATH
 set PATH /usr/local/sbin $PATH
